@@ -252,3 +252,33 @@ blockquote{
 .d-flex{
   justify-content: space-between;
 }
+
+.gallery {
+  position: relative;
+  width: 50%;
+}
+
+.card{
+  position: relative;
+  width: 10rem;
+  height: 15rem;
+  object-fit: cover;
+  display: inline-block;
+  
+ 
+}
+.card .image-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  width: 10rem;
+  height: 15rem;
+  object-fit: contain;
+  
+}
+.card:hover .image-hover {
+  display: inline;
+}
