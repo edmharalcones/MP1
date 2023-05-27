@@ -15,52 +15,53 @@
 
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-lg">
-    <div class="container p-0">
-        <img src="resources/logo.png" class="logo" style="margin-left: 40px;">
+  <div class="container-fluid">
+      <div class="navbar-brands" >
+          <img src="resources/logo.png" class="logo">
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" name="active-page">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT THE SHELTER</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pets.html">OUR PETS</a>
-          </li>
-          <li class="nav-item">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
+          <ul class="navbar-nav" style="display:flex; justify-content:end;">
+              <li class="nav-item" >
+                  <a class="nav-link" href="index.html" name="active-page">HOME</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT THE SHELTER</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="pets.html">OUR PETS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="petcare.html">PET CARE</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="shop.html">SHOP PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <div class="container">
+                  <div class="row">
+                <div class="col-1 p-0"><img src="resources/phone.png" class="navimg"></div>
+                <div class="col p-0"> <a class="nav-link" href="tel:460-1111-1111">460-1111-1111</a></div>
             
-            <a class="nav-link" href="petcare.html">PET CARE</a>
+              </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="container">
+                <div class="row">
+              <div class="col-1 p-0"><img src="resources/pin.png" class="navimg"></div>
+              <div class="col p-0 text-nowrap"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#mymodal">VISIT US</a></div>
+            </div>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="shop.html">SHOP PRODUCTS</a>
-          </li>
-          <li class="nav-item">
-            <div class="container" >
-              <div class="row">
-            <div class="col-1 p-0"><img src="resources/phone.png" class="navimg"></div>
-            <div class="col p-0"> <a class="nav-link" href="tel:460-1111-1111">460-1111-1111</a></div>
-        
-          </div>
-          </div>
-          </li>
-          <li class="nav-item">
-            <div class="container">
-              <div class="row">
-            <div class="col-1 p-0"><img src="resources/pin.png" class="navimg"></div>
-            <div class="col p-0"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#mymodal">VISIT US</a></div>
-          </div>
-          </div>
-          </li>
-
-        </ul>
+          </ul>
       </div>
-    </div>
-  </nav>
+  </div>
+</nav>
+
 
   <div class="modal" id="mymodal">
     <div class="modal-dialog">
@@ -137,18 +138,17 @@
     <br>
     <!-- featured pets -->
     
-    
-    <div class="container-fluid ms-auto  position-relative">
+    <div class="container-fluid" style="background-color: aqua;">
         <div class="row">
-          <div class=" col jumbotron jumbotron-fluid">
+          <div class=" col jumbotron jumbotron-fluid text-center" style="background-color: blueviolet;">
             <div class="container ps-auto">
               <h5 class="display-6">Pets of the week</h5>
             </div>
           </div>
-          <div class="col-1" >
-          </div>
+        </div>
+          <div class="row justify-content-around">
             <div class="col-2">
-                <div class="card w-75">
+                <div class="card">
                     <img src="resources/cat6-joji.png" class="card-img-top">
                     <div class="card-body">
                       <div class="container">
@@ -166,7 +166,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card w-75">
+                <div class="card">
                     <img src="resources/dog5-nori.png" class="card-img-top">
                     <div class="card-body">
                       <div class="container">
@@ -183,8 +183,8 @@
                   </div>
                   </div>
             </div>
-            <div class="col-2">
-                <div class="card w-75">
+            <div class="col-2 ">
+                <div class="card">
                     <img src="resources/cat8-dash.png" class="card-img-top">
                     <div class="card-body">
                       <div class="container">
@@ -202,7 +202,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card w-75">
+                <div class="card">
                     <img src="resources/dog3-mylo.png" class="card-img-top">
                     <div class="card-body">
                       <div class="container">
@@ -220,6 +220,7 @@
             </div>
         </div>
   </div>
+
 </div>
     <a class=" text-nowrap btn-tertiary" href="pets.html" role="button">View all pets</a>
     <!-- Testimonials -->
@@ -378,7 +379,7 @@
           </div>
         </div>
       </div>
-      
+     
   
         
      

@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="resources/icon.png">
     <title>Meowoof!</title>
 </head>
@@ -15,52 +14,53 @@
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg">
-    <div class="container p-0">
-        <img src="resources/logo.png" class="logo" style="margin-left: 40px;">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" name="active-page">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT THE SHELTER</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pets.html">OUR PETS</a>
-          </li>
-          <li class="nav-item">
-            
-            <a class="nav-link" href="petcare.html">PET CARE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="shop.html">SHOP PRODUCTS</a>
-          </li>
-          <li class="nav-item">
-            <div class="container" >
-              <div class="row">
-            <div class="col-1 p-0"><img src="resources/phone.png" class="navimg"></div>
-            <div class="col p-0"> <a class="nav-link" href="tel:460-1111-1111">460-1111-1111</a></div>
-        
-          </div>
-          </div>
-          </li>
-          <li class="nav-item">
-            <div class="container">
-              <div class="row">
-            <div class="col-1 p-0"><img src="resources/pin.png" class="navimg"></div>
-            <div class="col p-0"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#mymodal">VISIT US</a></div>
-          </div>
-          </div>
-          </li>
-
-        </ul>
-      </div>
+    <div class="container-fluid">
+        <div class="navbar-brands" >
+            <img src="resources/logo.png" class="logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
+            <ul class="navbar-nav" style="display:flex; justify-content:end;">
+                <li class="nav-item" >
+                    <a class="nav-link" href="index.html" name="active-page">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT THE SHELTER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pets.html">OUR PETS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="petcare.html">PET CARE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">SHOP PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <div class="container">
+                    <div class="row">
+                  <div class="col-1 p-0"><img src="resources/phone.png" class="navimg"></div>
+                  <div class="col p-0"> <a class="nav-link" href="tel:460-1111-1111">460-1111-1111</a></div>
+              
+                </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="container">
+                  <div class="row">
+                <div class="col-1 p-0"><img src="resources/pin.png" class="navimg"></div>
+                <div class="col p-0 text-nowrap"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#mymodal">VISIT US</a></div>
+              </div>
+              </div>
+            </li>
+            </ul>
+        </div>
     </div>
   </nav>
+  
 
   <div class="modal" id="mymodal">
     <div class="modal-dialog">
@@ -141,14 +141,6 @@
           <div class="card-body">
             <h4 class="card-title">Cat Toy - Fish</h4>
             <p class="card-text">PHP 50.00</p>
-               
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
             <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -163,13 +155,6 @@
           <div class="card-body">
             <h4 class="card-title">Cat Toy - Mouse</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star-half fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -184,13 +169,6 @@
           <div class="card-body">
             <h4 class="card-title">Cat Toy - Red Ball with Bell</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -205,13 +183,6 @@
           <div class="card-body">
             <h4 class="card-title">Cat Toy - Multicolored Ball with Bell</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -226,13 +197,6 @@
           <div class="card-body">
             <h4 class="card-title">Dog Toy - Blue Ball</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star-half fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -247,13 +211,6 @@
           <div class="card-body">
             <h4 class="card-title">Dog Toy - Red Ball</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -268,13 +225,6 @@
           <div class="card-body">
             <h4 class="card-title">Dog Toy - Chew Rope</h4>
             <p class="card-text">PHP 50.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -290,13 +240,6 @@
           <div class="card-body">
             <h4 class="card-title">Fish Delights - Wild Salmon</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -311,13 +254,6 @@
           <div class="card-body">
             <h4 class="card-title">Fish Delights - Classic Tuna</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -333,13 +269,6 @@
           <div class="card-body">
             <h4 class="card-title">Fish Delights - Mix Fish</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star-half fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -354,13 +283,6 @@
           <div class="card-body">
             <h4 class="card-title">Meat Delights - Chicken</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -375,13 +297,6 @@
           <div class="card-body">
             <h4 class="card-title">Meat Delights - Lamb</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -397,13 +312,6 @@
           <div class="card-body">
             <h4 class="card-title">Meat Delights - Rabbit</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -418,13 +326,6 @@
           <div class="card-body">
             <h4 class="card-title">Veggie Delights - Green Peas</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
@@ -439,13 +340,6 @@
           <div class="card-body">
             <h4 class="card-title">Veggie Delights - Potato & Spinach</h4>
             <p class="card-text">PHP 150.00</p>
-               <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star fa-sm"></i></li>
-                <li><i class="fa fa-star-half fa-sm"></i></li>
-              </ul>
               <br>
               <div class="d-flex">
                 <a href="https://www.lazada.com.ph" class="btn btn-primary">Visit Lazada</a>
