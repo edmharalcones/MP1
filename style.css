@@ -1,7 +1,6 @@
-body{
-  background-image:linear-gradient(#f7f6ed, white) !important;
 
-}
+
+
 /* universal text edits */
 p{
   color: #2e2828 !important;
@@ -91,7 +90,7 @@ h5{
 .logo{
   display: block;
   position: relative;
-  width: 10%;
+  width: 15%;
   left: -5%;
   height: auto;
 }
@@ -297,3 +296,11 @@ h5{
   font-size: 10px;
 }
 
+
+.navbar-brand:hover {
+      
+  transform: scale(1.1);
+  opacity: 1;
+  transition: transform 1s;
+  
+}
