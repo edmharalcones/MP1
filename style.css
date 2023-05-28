@@ -1,11 +1,8 @@
-body{
-  background-color: rgba(255, 253, 251,1) !important;
-}
 
 
 /* universal text edits */
 p{
-  color: #150578 !important;
+  color: #322e2e !important;
   font-family:sans-serif;
 }  
 
@@ -79,7 +76,7 @@ a{
     
     nav.navbar li a {
       background-color: transparent !important;
-      color: #2e2828;
+      color: #322e2e;
       font-size: smaller;
       
     }
@@ -101,7 +98,7 @@ a{
     }
     
     nav.navbar li a[name="active-page"] {
-     color: #ff774d;;
+     color: #d4af37;;
       
     }
     
@@ -122,7 +119,7 @@ a{
   position: relative;
   justify-content: center;
   padding-left: 40px ;
-  
+  top: -30px;
   height: auto;
 }
 
@@ -135,24 +132,26 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+        position: relative;
+        right: 5%;
+        left: 20%;
+        width: 65%;
+        height: auto;
 
 }
 
   .btn-secondary {
-  
     width: 100px;
-    display: block;
+    display: flex;
     position: relative;
-    background-color: #ff774d !important;
+    justify-content: center;
+    background-color: #d4af37 !important;
     color:white;
     padding: 10px;
-    box-sizing: border-box;
     background-color: transparent;
     text-decoration: none;
     text-align: center;
     font-size: 10px;
-    left: 40%;
-    bottom: 3%;
     border-radius: 15px 50px 30px ;
     box-shadow: 0px 2px 5px #000000;   
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
@@ -175,7 +174,7 @@ a{
 
   .btn-tertiary a{
     width: 100px;
-    background-color: #ff774d !important;
+    background-color: #d4af37 !important;
     color:white;
     padding: 10px;
     box-sizing: border-box;
@@ -196,13 +195,7 @@ a{
     background-color: #322e2e !important;
   }
 
-    .center {
-        display: block;
-        position: relative;
-        right: 5%;
-        width: 100%;
-        height: auto;
-      }
+
 
      
   
@@ -230,7 +223,7 @@ a{
       }
 
       .feature{
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
       }
 
@@ -294,4 +287,28 @@ a{
 .shoplink{
   display: flex;
   justify-content: space-between;
+}
+
+.btn-primary {
+  
+  width: 100px;
+  display: block;
+  position: relative;
+  background-color: #d4af37 !important;
+  color:white;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  box-shadow: 0px 2px 5px #000000;   
+  -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+  transition: -webkit-transform 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #322e2e !important;
 }
