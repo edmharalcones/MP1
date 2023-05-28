@@ -80,10 +80,6 @@ h1{
     .navimg{
       width: 15px;
     }
-
-    .d-flex{
-      justify-content: space-between;
-    }
     
     nav.navbar li a:hover {
       
@@ -122,10 +118,7 @@ h1{
 
 
 .gender{
-  display: block;
-  position: relative;
-  width: 70%;
-  left: 100%;
+  width: 50%;
   height: auto; 
 }
 .center{
@@ -331,4 +324,8 @@ h1{
 
 .navbar-brand{
   color: #556688 !important;
+}
+.shoplink{
+  display: flex;
+  justify-content: space-between;
 }
