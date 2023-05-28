@@ -11,6 +11,58 @@
     <link rel="icon" href="resources/icon.png">
     <title>Meowoof!</title>
 </head>
+<style>
+  .col-3{
+  position: relative;
+  padding:10px;
+  overflow: hidden;
+
+
+}
+.col-3:hover img{
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.col-3:hover div {
+  opacity: 1;
+
+}
+.col-3 div {
+  position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(1.1, 1.1);
+    transition: all 0.2s ease-in;
+}
+.col-3 p {
+  box-sizing: border-box;
+  text-decoration: none;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+
+  
+</style>
 <body>
 
 <!-- Navigation bar -->
@@ -26,13 +78,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
           <ul class="navbar-nav" style="display:flex; justify-content:end;">
               <li class="nav-item" >
-                  <a class="nav-link" href="index.html" name="active-page">HOME</a>
+                  <a class="nav-link" href="index.html" >HOME</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="about.html">ABOUT THE SHELTER</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="pets.html">OUR PETS</a>
+                  <a class="nav-link" href="pets.html"  name="active-page">OUR PETS</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="petcare.html">PET CARE</a>
@@ -108,129 +160,98 @@
           <div class="col-3">
             <img src="resources/cat1-haru.png" class="gallery">
             <div>
-              <p>Haru</p>
-              <p>2 year(s)</p>
-              <p>Male</p>
+              <p>Haru, 2 year(s), M </p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat2-dot.png" class="gallery">
             <div>
-              <p>Dot</p>
-              <p>4 month(s)</p>
-              <p>Female</p>
+              <p>Dot, 4 month(s), F </p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat3-boots.png" class="gallery">
             <div>
-              <p>Boots</p>
-              <p>3 year(s)</p>
-              <p>Male</p>
+              <p>Boots, 3 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat4-lunch.png" class="gallery">
             <div>
-              <p>Lunch</p>
-              <p>5 year(s)</p>
-              <p>Female</p>
+              <p>Lunch, 5 year(s), F</p>
+              
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat5-noa.png" class="gallery">
             <div>
-              <p>Noa</p>
-              <p>5 month(s)</p>
-              <p>Female</p>
+              <p>Noa, 5 month(s), F</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat6-joji.png" class="gallery">
             <div>
-              <p>Joji</p>
-              <p>1 year(s)</p>
-              <p>Male</p>
+              <p>Joji, 1 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat7-ichi.png" class="gallery">
             <div>
-              <p>Ichi</p>
-              <p>4 month(s)</p>
-              <p>Male</p>
+              <p>Ichi, 4 month(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/cat8-dash.png" class="gallery">
             <div>
-              <p>Dash</p>
-              <p>5 year(s)</p>
-              <p>Male</p>
+              <p>Dash, 5 year(s), M </p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog1-duke.png" class="gallery">
             <div>
-              <p>Duke</p>
-              <p>3 year(s)</p>
-              <p>Male</p>
+              <p>Duke, 3 year(s), M </p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog2-rocky.png" class="gallery">
             <div>
-              <p>Rocky</p>
-              <p>1 year(s)</p>
-              <p>Male</p>
+              <p>Rocky, 1 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog3-mylo.png" class="gallery">
             <div>
-              <p>Mylo</p>
-              <p>2 year(s)</p>
-              <p>Male</p>
+              <p>Mylo, 2 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog4-lucy.png" class="gallery">
             <div>
-              <p>Lucy</p>
-              <p>4 year(s)</p>
-              <p>Female</p>
+              <p>Lucy, 4 year(s), F</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog5-nori.png" class="gallery">
             <div>
-              <p>Nori</p>
-              <p>6 month(s)</p>
-              <p>Female</p>
+              <p>Nor,i 6 month(s), F</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog6-max.png" class="gallery">
             <div>
-              <p>Max</p>
-              <p>4 year(s)</p>
-              <p>Male</p>
+              <p>Max, 4 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog7-charlie.png" class="gallery">
             <div>
-              <p>Charlie</p>
-              <p>4 year(s)</p>
-              <p>Male</p>
+              <p>Charlie, 4 year(s), M</p>
             </div>
           </div>
           <div class="col-3">
             <img src="resources/dog8-peri.png" class="gallery">
             <div>
-              <p>Peri</p>
-              <p>3 year(s)</p>
-              <p>Female</p>
+              <p>Peri, 3 year(s), F</p>
             </div>
           </div>
     
