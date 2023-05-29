@@ -11,7 +11,12 @@
     <link rel="icon" href="resources/icon.png">
     <style>
    
-
+   input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      }
+      
     </style>
   
     <title>Meowoof!</title>
@@ -115,14 +120,14 @@
       </div>
     <form class="needs-validation" novalidate>
         <div class="col">
-          <label for="validationFullName" class="form-label">Full Name:</label>
-          <input type="text" class="form-control" id="validationFullName" required>
+          <label for="validationFullName" class="form-label " >Full Name:</label>
+          <input type="text" class="form-control" id="validationFullName"   pattern="[a-zA-Z]*" required>
           <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please input Full Name.</div>
         </div>
         <div class="col">
           <label for="validationEmail" class="form-label">Email:</label>
-          <input type="text" class="form-control" id="validationEmail" required>
+          <input type="email" class="form-control" id="validationEmail" required>
           <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please input Email</div>
         </div>
@@ -145,9 +150,28 @@
           <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please add a photo. </div>
           </div>
-  
+
+          <div class="col">
+            <label for="exampleFormControlTextarea1" class="form-label">Describe your donation</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please add a description. </div>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Self delivery
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Let us pick up
+            </label>
+          </div>
         <div class="col" style="margin-top: 5%;">
-          <button class="btn btn-warning" type="submit">Sign up</button>
+          <button class="btn-primary" type="submit">Submit</button>
         </div>
       </form>
 </div>
