@@ -1,10 +1,7 @@
 
 
 /* universal text edits */
-p{
-  color: #322e2e !important;
-  font-family:sans-serif;
-}  
+
 
 h2{
   text-align: center;
@@ -12,29 +9,13 @@ h2{
   color: #322e2e !important;
 }
 
-h5{
-  color: #322e2e !important;
-  font-family:sans-serif;
 
-}
 
-h4{
-  color: #322e2e !important;
-  font-family:sans-serif;
-}
-h3{
-  color: #322e2e !important;
-  font-family:sans-serif;
-}
-h1{
+h4,h3,h1,.tips,p,h5{
   color: #322e2e !important;
   font-family:sans-serif;
 }
 
-.tips{
-  color: #322e2e !important;
-  font-family:sans-serif;
-}
 
 a{
   font-family:sans-serif !important;
@@ -98,7 +79,7 @@ a{
     }
     
     nav.navbar li a[name="active-page"] {
-     color: #5e7ddf;;
+     color: #ff4848;;
       
     }
     
@@ -140,8 +121,7 @@ a{
 
 }
 
-  .btn-secondary {
-    width: 100px;
+  .btn-secondary, .btn-tertiary a {
     display: flex;
     position: relative;
     justify-content: center;
@@ -155,7 +135,8 @@ a{
     transition: -webkit-transform 0.2s, transform 0.2s;
   }
 
-  .btn-secondary:hover {
+
+  .btn-secondary:hover, .btn-tertiary a:hover, .btn-donate:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
    
@@ -169,32 +150,25 @@ a{
     padding: 20px 70px 0 0;  
   }
 
-  .btn-tertiary a{
-    width: 100px;
+
+
+  .btn-donate{
     display: flex;
     position: relative;
     justify-content: center;
-
-    background-color: #5e7ddf !important;
     color:white;
-    padding: 10px;
+    background-color: #5e7ddf !important;
     text-decoration: none;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
     transition: -webkit-transform 0.2s, transform 0.2s;
+
   }
-
-  .btn-tertiary a:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
   
-  }
 
 
 
-     
-  
     .card{
       height: auto;
       padding: 10px;
@@ -232,6 +206,11 @@ a{
         width: 56px;
         display: inline-block;
         margin: 10px;
+      }
+      .link{
+        color: #322e2e;
+        text-decoration: none;
+
       }
       
 
@@ -290,7 +269,7 @@ a{
   width: 100px;
   display: block;
   position: relative;
-  background-color: #d4af37 !important;
+  background-color: #5e7ddf !important;
   color:white;
   padding: 10px;
   box-sizing: border-box;
@@ -306,5 +285,9 @@ a{
 .btn-primary:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-color: #322e2e !important;
+
+}
+
+.card-title, .card-text{
+  text-align: center;
 }
