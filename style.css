@@ -199,6 +199,13 @@ a{
         height: 15rem;
         object-fit: cover;
       }
+      .card-img-top:hover{
+       
+          transform: scale(1.25, 1.25);
+       
+          
+        
+      }
 
       .card-title{
         font-size: 1vw;
