@@ -9,7 +9,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="icon" href="resources/icon.png">
     <title>Meowoof!</title>
-    
+    <style>
+      /* petcare exclusive */
+
+  .carousel-item{
+    height: 500px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carousel-item{
+      height: 150px;
+   
+    }
+  }
+  
+  .carousel-item img{
+  
+    object-fit: cover;
+    max-width: 100%;
+    max-height:100%;
+  }
+
+    </style>
+
+
 </head>
 <body>
 <!-- Navigation bar -->
@@ -25,7 +48,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
           <ul class="navbar-nav" style="display:flex; justify-content:end;">
               <li class="nav-item" >
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index.html" >Home</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="about.html">About the Shelter</a>
@@ -186,16 +209,18 @@
              <a href="https://www.instagram.com" class="footer px-2"><img src="resources/ig.png" width="30px" height="30px"></a>
              <a href="https://www.facebook.com" class="footer px-2" ><img src="resources/fb.png" width="30px" height="30px"></a>
              <a href="https://www.youtube.com" class="footer px-2"><img src="resources/yt.png" width="30px" height="30px"></a>
+             <p style="font-size:smaller; font-style: italic;">2023 Edmhar Alcones. All Rights Reserved.</p>
+            
            </div>
            <div class="col d-flex justify-content-end">
              <a href="terms.html" class="link px-2 text-nowrap">Terms of Use</a>
-             <a href="mailto:edmharalcones@gmail.com" class="link px-2text-nowrap" >Message Us</a>
+             <a href="mailto:edmharalcones@gmail.com" class="link px-2 text-nowrap" >Message Us</a>
+      
            </div>
          </div>
         </div>
         <br>
       </footer>
- 
 
 </body>
 </html>
