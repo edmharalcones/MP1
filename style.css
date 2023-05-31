@@ -310,7 +310,7 @@ a{
   font-size: 21px;
 }
 
-.btn-primary {
+.btn-primary, .btn-shopee {
   
   width: 100px;
   display: block;
@@ -328,10 +328,28 @@ a{
   transition: -webkit-transform 0.2s, transform 0.2s;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-shopee:hover, .btn-lazada:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 
+}
+
+.btn-lazada {
+  
+  width: 100px;
+  display: block;
+  position: relative;
+  background-color: #738af3 !important;
+  color: #322e2e !important;
+  border-radius: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+  transition: -webkit-transform 0.2s, transform 0.2s;
 }
 
 .card-title, .card-text{
