@@ -5,11 +5,12 @@ h2{
   text-align: center;
   font-family:sans-serif;
   color: #322e2e !important;
+  
 }
 
 
 
-h4,h3,h1,.tips,p,h5{
+h4,h3,h1,.tips,p,h5,h2{
   color: #322e2e !important;
   font-family:sans-serif;
 }
@@ -132,7 +133,7 @@ a{
 
   }
 }
-  .btn-secondary, .btn-tertiary a {
+  .btn-secondary, .btn-pets a{
     display: flex;
     position: relative;
     justify-content: center;
@@ -157,18 +158,25 @@ a{
     }
   }
 
-  .btn-secondary:hover, .btn-tertiary a:hover, .btn-donate:hover{
+  .btn-secondary:hover, .btn-tertiary img:hover, .btn-pets:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
    
   }
 
-  .btn-tertiary{
-    width: 100px;
-    display: flex;
-    justify-content: end;
-    box-sizing: border-box;
-    padding: 20px 70px 0 0;  
+  .btn-tertiary img{
+    -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+    transition: -webkit-transform 0.2s, transform 0.2s;
+  }
+
+
+
+  .socials{
+    height: 20px;
+    width: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
 
@@ -294,6 +302,12 @@ a{
 .shoplink{
   display: flex;
   justify-content: space-between;
+}
+
+.shoptext{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 21px;
 }
 
 .btn-primary {
