@@ -38,9 +38,6 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
           <ul class="navbar-nav" style="display:flex; justify-content:end;">
-              <li class="nav-item" >
-                  <a class="nav-link" href="index.html"  >Home</a>
-              </li>
               <li class="nav-item">
                   <a class="nav-link" href="pets.html">Our Pets</a>
               </li>
@@ -164,28 +161,28 @@
         </div>
       
         <div class="col">
-          <label for="validationLocation" class="form-label">Take a photo of your donation:</label>
-          <input class="form-control" type="file" accept="image/*"  id="formFile" required>
+          <label for="donationimage" class="form-label">Take a photo of your donation:</label>
+          <input class="form-control" type="file" accept="image/*"  id="donationimage" required>
           <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please add a photo. </div>
           </div>
 
           <div class="col">
-            <label for="exampleFormControlTextarea1" class="form-label">Describe your donation</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            <label for="Description" class="form-label">Describe your donation</label>
+            <textarea class="form-control" id="Description" rows="3" required></textarea>
             <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please add a description. </div>
           </div>
 
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
+            <input class="form-check-input" type="radio" name="selfdelivery" id="selfdelivery" value="option1" checked>
+            <label class="form-check-label" for="selfdelivery">
               Self delivery
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
+            <input class="form-check-input" type="radio" name="pickup" id="pickup" value="option2">
+            <label class="form-check-label" for="pickup">
               Let us pick up
             </label>
           </div>

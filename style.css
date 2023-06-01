@@ -125,7 +125,20 @@ a{
         height: auto;
 }
 
+.arrow{
+  width: 50%;
+  height: 25%;
+  -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+  transition: -webkit-transform 0.2s, transform 0.2s;
 
+}
+
+.arrow:hover{
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    src: url('resources/icon.png');
+
+}
 @media screen and (max-width: 600px) {
   .center{
     height:80%;
@@ -133,7 +146,7 @@ a{
 
   }
 }
-  .btn-secondary, .btn-pets a{
+  .btn-secondary{
     display: flex;
     position: relative;
     justify-content: center;
@@ -145,6 +158,23 @@ a{
     font-size: 15px;
     border-radius: 40px;
     width: 25%;
+    -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+    transition: -webkit-transform 0.2s, transform 0.2s;
+  }
+
+  .btn-pets{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #322e2e !important;
+    background-color: #fde578 !important;
+    padding: 10px;
+    right: 5%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 40px;
+    width: 10%;
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
     transition: -webkit-transform 0.2s, transform 0.2s;
   }
@@ -230,7 +260,7 @@ a{
       }
 
       .feature{
-        max-width: 50%;
+        max-width: 89%;
         height: auto;
       }
 
