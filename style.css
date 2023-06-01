@@ -385,3 +385,19 @@ a{
 .card-title, .card-text{
   text-align: center;
 }
+
+/* Donate Exclusive */
+
+.donatetext{
+  font-size: 2vw; 
+  text-align: center; 
+  font-weight: 800;
+}
+
+.donateimage{
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
