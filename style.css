@@ -181,9 +181,9 @@ a{
 
 
   @media screen and (max-width: 600px) {
-    .btn-secondary{
+    .btn-secondary, .btn-pets{
       
-      width: 50%;
+      width: 60%;
   
     }
   }
@@ -260,7 +260,7 @@ a{
       }
 
       .feature{
-        max-width: 89%;
+        max-width: 88%;
         height: auto;
       }
 
@@ -389,7 +389,7 @@ a{
 /* Donate Exclusive */
 
 .donatetext{
-  font-size: 2vw; 
+  font-size: 15px; 
   text-align: center; 
   font-weight: 800;
 }
@@ -400,4 +400,12 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .donateimage{
+    width: 20%;
+    height: auto;
+
+  }
 }
