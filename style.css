@@ -125,24 +125,11 @@ a{
         height: auto;
 }
 
-.arrow{
-  width: 50%;
-  height: 25%;
-  -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
-  transition: -webkit-transform 0.2s, transform 0.2s;
 
-}
-
-.arrow:hover{
-  -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    src: url('resources/icon.png');
-
-}
 @media screen and (max-width: 600px) {
   .center{
     height:80%;
-    width: 80%;
+    width: 90%;
 
   }
 }
@@ -301,7 +288,23 @@ a{
 .gallery img{
   overflow: hidden;
 }
-  
+
+.steps{
+  display: block;
+   margin-left: auto;
+    margin-right: auto;
+     max-width: 50%;
+      height: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .steps{
+    
+    max-width: 100%;
+
+  }
+} 
 
 
   /* Shop exclusive */
@@ -311,8 +314,8 @@ a{
   justify-content: space-between;
 }
 
-.card-text{
-  font-size: 10px;
+.card-text,.card-title{
+  font-size: 15px;
 }
 
 
@@ -334,11 +337,7 @@ a{
   justify-content: space-between;
 }
 
-.shoptext{
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 21px;
-}
+
 
 .btn-primary, .btn-shopee {
   
