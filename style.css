@@ -36,12 +36,16 @@ a{
   
   }
   
-  blockquote{
-    font-size: 1.1vw;
+  .abouttext{
+    font-size: 1.5vw !important;
     color: #322e2e !important;
   }
   
- 
+  @media screen and (max-width: 600px) {
+    .abouttext{
+      font-size: 2vw !important;
+    }
+  }
 
   .display-6{
     color: #322e2e !important;
@@ -80,9 +84,11 @@ a{
     }
     
     nav.navbar li a[name="active-page"] {
-     color: #fde578;;
+     color: #7890fd;;
       
     }
+
+    
     
   
 
@@ -125,6 +131,20 @@ a{
         height: auto;
 }
 
+.indextext{
+  text-align: justify;
+   text-justify: inter-word; 
+   color: #322e2e !important;
+   font-family:sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .indextext{
+    font-size: 10px !important;
+
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .center{
@@ -137,7 +157,7 @@ a{
     display: flex;
     position: relative;
     justify-content: center;
-    color: #322e2e !important;
+    color: #fc4667 !important;
     background-color: #fde578 !important;
     padding: 10px;
     text-decoration: none;
@@ -153,7 +173,7 @@ a{
     display: flex;
     position: relative;
     justify-content: center;
-    color: #322e2e !important;
+    color: #fc4667 !important;
     background-color: #fde578 !important;
     padding: 10px;
     right: 5%;
@@ -307,6 +327,8 @@ a{
 } 
 
 
+
+
   /* Shop exclusive */
  
 .row-image{
@@ -319,7 +341,7 @@ a{
 }
 
 
-.navbar-brand:hover {
+.filter:hover {
       
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -329,8 +351,10 @@ a{
   
 }
 
-.navbar-brand{
+.filter{
+  font-size: 15px;
   color: #322e2e !important;
+  white-space: nowrap;
 }
 .shoplink{
   display: flex;
@@ -345,7 +369,7 @@ a{
   display: block;
   position: relative;
   background-color: #fde578 !important;
-  color: #322e2e !important;
+  color: #fc4667 !important;
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;
@@ -368,8 +392,8 @@ a{
   width: 100px;
   display: block;
   position: relative;
-  background-color: #738af3 !important;
-  color: #322e2e !important;
+  background-color: #fde578 !important;
+  color: #fc4667 !important;
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;
