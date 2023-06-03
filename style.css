@@ -8,6 +8,15 @@ h2{
   
 }
 
+.text{
+  color: #322e2e !important;
+  font-family:sans-serif;
+}
+
+.title{
+  color: #322e2e !important;
+  font-family:sans-serif;
+}
 
 
 h4,h3,h1,.tips,p,h5,h2{
@@ -37,13 +46,13 @@ a{
   }
   
   .abouttext{
-    font-size: 1.5vw !important;
+    font-size: 1.25vw !important;
     color: #322e2e !important;
   }
   
   @media screen and (max-width: 600px) {
     .abouttext{
-      font-size: 2vw !important;
+      font-size: 3vw !important;
     }
   }
 
@@ -84,7 +93,7 @@ a{
     }
     
     nav.navbar li a[name="active-page"] {
-     color: #7890fd;;
+     color: #fc4667;;
       
     }
 
@@ -123,8 +132,7 @@ a{
 
 .center{
   display: flex;
-  align-items: right;
-  justify-content: right;
+left: 15% !important;
         position: relative;
   
         width: 85%;
@@ -146,13 +154,6 @@ a{
 }
 
 
-@media screen and (max-width: 600px) {
-  .center{
-    height:80%;
-    width: 90%;
-
-  }
-}
   .btn-secondary{
     display: flex;
     position: relative;
@@ -162,9 +163,10 @@ a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 40px;
     width: 25%;
+    font-weight: 500;
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
     transition: -webkit-transform 0.2s, transform 0.2s;
   }
@@ -179,8 +181,9 @@ a{
     right: 5%;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;
     border-radius: 40px;
+    font-size: 12px;
+    font-weight: 500;
     width: 10%;
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
     transition: -webkit-transform 0.2s, transform 0.2s;
@@ -191,6 +194,14 @@ a{
     .btn-secondary, .btn-pets{
       
       width: 60%;
+  
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .btn-pets{
+      
+      width: 25%;
   
     }
   }
@@ -345,8 +356,8 @@ a{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 1;
-  transition: transform 1s;
-  color: #fc4667 !important;
+  transition: transform 1s;;
+     color:  #7890fd !important;
 
   
 }
@@ -389,7 +400,8 @@ a{
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 500;
   -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
   transition: -webkit-transform 0.2s, transform 0.2s;
 }
@@ -413,7 +425,8 @@ a{
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 500;
   -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
   transition: -webkit-transform 0.2s, transform 0.2s;
 }
@@ -430,8 +443,23 @@ a{
   font-weight: 800;
 }
 
+.donatetext2{
+
+  font-size: 15px !important; 
+  text-align: center; 
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .donatetext2{
+    font-size: 12px !important; 
+
+  }
+}
+
 .donateimage{
-  width: 10%;
+  width: 50%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -440,8 +468,45 @@ a{
 
 @media screen and (max-width: 600px) {
   .donateimage{
-    width: 20%;
+    width: 50%;
     height: auto;
 
   }
+}
+
+/* Contact exclusive */
+
+.messageicon{
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* pet care exclusive */
+
+.btn-petcare{
+  
+  width: 100px;
+  display: block;
+  position: relative;
+  background-color: #fde578 !important;
+  color: #fc4667 !important;
+  border-radius: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
+  transition: -webkit-transform 0.2s, transform 0.2s;
+}
+
+.btn-petcare{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
 }

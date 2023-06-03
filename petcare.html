@@ -10,25 +10,9 @@
     <link rel="icon" href="resources/icon.png">
     <title>Meowoof!</title>
     <style>
-      /* petcare exclusive */
+     
 
-  .carousel-item{
-    height: 500px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .carousel-item{
-      height: 150px;
-   
-    }
-  }
-  
-  .carousel-item img{
-  
-    object-fit: cover;
-    max-width: 100%;
-    max-height:100%;
-  }
+
 
     </style>
 
@@ -36,7 +20,7 @@
 </head>
 <body>
 <!-- Navigation bar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
       <div class="navbar-brands" >
         <a class="nav-link" href="index.html" ><img src="resources/logo.png" class="logo"></a>
@@ -48,27 +32,22 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
           <ul class="navbar-nav" style="display:flex; justify-content:end;">
               <li class="nav-item">
-                  <a class="nav-link" href="pets.html">Our Pets</a>
+                  <a class="nav-link" href="pets.html" >Our Pets</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="petcare.html" name="active-page">Pet Care</a>
+                  <a class="nav-link" href="petcare.html">Pet Care</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="donate.html">Donate</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="shop.html" >Shop Products</a>
+                  <a class="nav-link" href="shop.html">Shop Products</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="about.html">About the Shelter</a>
               </li>
-              <li class="nav-item">
-                <div class="container">
-                  <div class="row">
+              <li class="nav-item">  
                 <div class="col p-0"> <a class="nav-link" href="contact.html">Contact Us</a></div>
-            
-              </div>
-              </div>
             </li>
             <li class="nav-item">
               <div class="container">
@@ -83,272 +62,132 @@
   </div>
 </nav>
 
-
-
-<div class="modal" id="mymodal">
-  <div class="modal-dialog">
-      <div class="modal-content">
-          <!-- Modal header -->
-          <div class="modal-header">
-            <button typ="button" class="btn btn-danger btn-close" data-bs-dismiss="modal"></button>  
-              
-          </div>
-          <!-- Modal Body -->
-          <div class="modal-body">
-            <!-- Google map -->
-          <div class="row">
-         <div class="d-flex justify-content-center" style="margin-bottom: 100px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1931.8297235176572!2d120.91463153770376!3d14.446779252897281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d2a23f40d999%3A0xa1fd6aa5ac99573d!2sBinakayan%20-%20Kanluran%2C%20Kawit%2C%204104%20Cavite!5e0!3m2!1sen!2sph!4v1684539420101!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-<br>
+  <div class="modal" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal header -->
+            <div class="modal-header">
+              <button typ="button" class="btn btn-danger btn-close" data-bs-dismiss="modal"></button>  
+                
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+              <!-- Google map -->
+            <div class="row">
+           <div class="d-flex justify-content-center" style="margin-bottom: 100px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1931.8297235176572!2d120.91463153770376!3d14.
+          446779252897281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d2a23f40d999%3A0xa1fd6aa5ac99573d!2sBinakayan%
+          0-%20Kanluran%2C%20Kawit%2C%204104%20Cavite!5e0!3m2!1sen!2sph!4v1684539420101!5m2!1sen!2sph" width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
 <br>
 
 </div>
-          </div>
-          <!-- Modal Footer -->
-          <div class="modal-footer">
-              
-          </div>
-      </div>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+</div> 
+<br>
+  
+<div class="container-fluid px-5">
+  <div class="row">
+    <div class="col" style="margin:20px; padding: 10px;">
+      <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/catcare.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">General Cat Care</h5>
+      <p class="text">Useful tips for new cat parents, and for those looking to brush up on their cat care skills.</p>
+      <a href="https://www.aspca.org/pet-care/cat-care/general-cat-care" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
   </div>
 </div>
 
-      
-       
-      
-
-<br>
-<br>
-<br>
-  <!-- Indicators/dots 
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      
-      
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-        </div>
-      
- 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="resources/slide1.png" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="resources/slide2.png" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="resources/slide3.png" class="d-block w-100">
-          </div>
-          <div class="carousel-item" >
-            <img src="resources/slide4.png" class="d-block w-100">
-          </div>
-        </div>
-     
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-         <!-- Left and right controls/icons -->
-
-<div class="container">
-
-         <img src="resources/catcare.png" class="steps">
-         <br>
-      
-
-
-
-
-<br>
-<br>
-FOOD
-<br>
-<br>
-
-Cats are true carnivores. High-quality wet food is great for your cat, keeps his teeth healthy and is a good source of protein. Feed your cat wet food two times a day. Avoid grains and too many carbohydrates. Be as consistent with the feeding time as possible. Read the labels to determine serving sizes and check ingredients.
-<br>
-<br>
-WATER
-<br>
-<br>
-
-Your cat should always have access to fresh water. It should be changed at least two times a day. Filtered, purified or bottled water is optimal, but fresh tap water is OK too. Cats do not like to bend their whiskers while eating or drinking, so make sure that the bowls are large enough to accommodate. Remember, cats are very sensitive to smell. If your cat is not drinking from his water bowl, thoroughly wash and rinse the bowl and try again. You can also try filtered water.
-<br>
-<br>
-PLACES TO SLEEP
-<br>
-<br>
-
-A typical day for a cat includes about 16 hours of sleep and four to six hours of grooming, playing, hunting, eating and exploring. Make your cat feel right at home by providing him with a few places to sleep. Cats like to sleep and perch in high places. They like the security of seeing everything that is happening below and around them. Cat beds, cat trees, baskets and pillows are great ways to give your feline friend safe, secure spots to call his own. Ensure your cat has access to his favorite spots by checking closets or rooms before closing a door. Cats are known to sneak into rooms or closets and run the risk of being inadvertently locked in. 
-<br>
-<br>
-AN ENRICHED ENVIRONMENT
-<br>
-<br>
-
-Providing an enriched indoor environment full of positive stimuli will lay the groundwork for a happy, healthy cat. Cats live happy, fulfilled lives indoors and avoid life-threatening diseases and dangers that lurk outside. The average lifespan of an outdoor cat is 1 to 3 years. That extends to 15 years for indoor cats. Wild cats roam because they need food, water, and shelter and, if not spayed or neutered, always have the urge to mate. Providing your cat with a variety of toys that you change out periodically can help keep him happy. Play with or pet your cat in different rooms. Schedule at least 15-30 minutes of cuddle and playtime with your kitty twice a day. Talking to your cat and giving him lots of friendly praise or quick strokes will further solidify your bond. Spaying or neutering is essential.
-<br>
-<br>
-GROOMING
-<br>
-<br>
-
-Your cat’s basic grooming needs include nail trimming, brushing and dental hygiene.
-<br>
-<br>
-BASIC SUPPLIES
-<br>
-<br>
-
-When you’re ready to bring your cat home, remember to pick up these supplies:
-<br>
-<br>
-
-Dishware: We recommend stainless steel, glass or ceramic food and water bowls. Avoid plastic containers. Toxins in the plastic and the porous material encourage bacterial build up and can cause an infection or acne on your cat’s skin.
-<br>
-<br>
-Litter Box(es): The general rule of thumb is having the same number of litter boxes as cats, plus one. Your cat should be able to comfortably enter the box and have plenty of room to perform his elimination ritual of sniffing, digging, squatting, turning around and covering up the feces. You may want to avoid covered or hooded litter boxes. They tend to trap odors inside and do not satisfy a cat’s need to escape potential threats when eliminating. You may need to experiment to find out which kind of litter box your cat prefers.
-<br>
-<br>
-
-Litter: Cats typically prefer litter that is unscented, made with few or no chemicals, absorbent, soft to the touch and rake-able. A brand that clumps into a firm ball makes scooping easier and cleaner. Some people prefer pellets. There are litters that are environmentally greener than others. Consider clumping recycled products, such as recycled wood litter,or walnut shells. Avoid litter made of wheat or corn. They can be inflammatory if the cat licks the dust off himself. If you want to experiment with different litter types, we recommend keeping a traditional litter box, in addition to the new litter, to learn your cat’s preference. Place at least three inches of litter in the box. You can try plastic liners to prevent urine from sticking to the bottom. However, litter box liners and scented litter can be irritating to some cats. The most important thing is to keep your box clean.
-<br>
-<br>
-
-Scratching Post: Scratching posts are best when they are hung or are tall enough to be approximately 30 inches off the ground. This allows your cat to fully stretch his legs. The best ones are made of soft wood or wrapped with sisal rope and mounted on a stable base that won’t tip.
-<br>
-<br>
-Toys: Toys are a great way to bond with your cat and provide him with mental and physical stimulation. There are a variety of toys available; your cat will let you know which ones he enjoys. They might include:
-<br>
-- Lightweight items, such as balled up tissue or wax paper, for the “catch-and-kill” game
-<br>
-- Ping Pong balls, perfect for kitty catch
-<br>
-- Toilet paper rolls, paper towel rolls or wine corks for batting practice
-<br>
-- Cotton socks stuffed with cotton balls or catnip and tied at the end
-<br>
-- Toys on a fishing pole or stick
-<br>
-- Boxes and paper shopping bags (just remember to cut off the handles)
-<br>
-<br>
-Avoid giving your cat string, yarn, floss, ribbon, twine, rubber bands and bells. Due to the barbs on a cat’s tongue, they have trouble removing these items, which could cause them to swallow them.
-<br>
-<br>
-
-Catnip: Catnip has a remarkable effect on cats. It stimulates and relaxes them at the same time. Catnip-stuffed toys heighten the cat’s interest in stationary toys that would otherwise be considered dead prey, lifeless and boring.
-<br>
-<br>
-
-Carrier: This is another essential item.</p>
-<br>
-<br>
-
-<a href="https://www.pawschicago.org/news-resources/all-about-cats/kitty-basics/a-cats-basic-needs">LEARN MORE</a>
-<br>
-<br>
-<img src="resources/dogcare.png" class="steps">
-
-<br>
-<br>
-<br>
-
-
-<p>FOOD
-<br>
-<br>
-
-We recommend high-quality, high protein, balanced dog food twice a day for adult dogs. Young puppies should start out eating three to four times a day and move to two meals around four months. 
-<br>
-<br>
-WATER
-<br>
-
-Your dog should always have access to fresh, clean water. It should be changed at least two times a day.
-<br>
-<br>
-PLACES TO SLEEP
-<br>
-<br>
-
-A dog's bed is a source of comfort. Sleeping habits will depend on you! Many dogs will sleep with their owners; however, training professionals will not recommend this for dogs who require stricter boundaries.
-<br>
-<br>
-If your pet does not sleep with you, create a cozy sleeping place, preferably with the pack (you or other humans/dogs in the house). We recommend having beds in rooms where they spend a lot of time.
-<br>
-<br>
-EXERCISE
-<br>
-<br>
-
-Dogs need lots of exercise and socialization. Understanding your dog’s exercise needs, which can depend on breed, age and size, will help you develop an exercise routine that matches his personality.
-<br>
-<br>
-
-Try taking your new dog or a walk, to visit with neighborhood dogs, to the dog park and in the car. Training and agility classes are another great way to exercise and strengthen the bond between you and your pet.
-<br>
-<br>
-
-Dogs need to build up to longer and more intense exercise regimes. Puppies should stick to walking around the block and backyard playtime. A junior dog can evolve into your running buddy. As dogs approach their senior years, exercise is also important to maintain muscle mass on aging joints. Exercise needs may change with health condition, so make sure to assess your dog’s ability to keep up as he ages.
-<br>
-<br>
-AN ENRICHED ENVIRONMENT
-<br>
-<br>
-
-Providing an enriched environment full of positive stimuli will lay the groundwork for a happy, healthy dog. Dogs are pack animals, and they thrive on being part of your family’s pack.
-<br>
-<br>
-
-At least three times a day, play with your dog or take him for a walk for 15 to 30 minutes. This will help him feel like a true member of your family. During playtime, change out his toys to keep him interested and challenged. And of course, reward good behavior with lots of pets, positive praise and a few treats!
-<br>
-<br>
-BASIC SUPPLIES
-<br>
-<br>
-
-When you’re ready to bring your pup home, remember to pick up these supplies:
-<br>
-<br>
-
-Dishware: We recommend stainless steel, glass or ceramic food and water bowls. Avoid plastic containers. Plastic can shed toxins in food and water and the porous material encourages bacterial build up. 
-<br>
-<br>
-
-Collar: Dogs should have a martingale-style or buckle collar that can carry an ID tag and a rabies tag. Make sure your dog’s collar fits properly. You should be able to put two fingers between the collar and the dog’s neck. Consult your veterinarian or a trainer to see if a different type of collar is right for your dog.
-<br>
-<br>
-
-Leash: Leashes should be 4 to 6 feet long to ensure good control of your dog. Retractable leashes are not recommended, as they do not give you as much control. In public, your dog should be on a leash at all times. Even the best-trained dogs can become scared or chase perceived prey and run into traffic. If you have a secure, fenced-in yard, it’s OK to have your dog off leash.
-<br>
-<br>
-
-Toys: Toys are a great way to provide your dog with mental and physical stimulation. Experiment with a few different types of toys to discover your dog’s preference. We recommend Kong brand toys and other well-made toys that involve a mental challenge. A Kong Classic is a hollow toy that can be filled with treats. Your dog will work at the Kong to get the treats out. Be mindful of small parts. Many toys come with a squeaker inside, which is a choking hazard for dogs who enjoy tearing apart toys. Stuffing and pieces of rope can also be dangerous if ingested. Be careful of the type of toys you leave in his crate while you are away. Toys that don’t have parts a dog can swallow are best. Make sure dyes and the material in the toys is non-toxic and has no heavy metals in it. It's best to buy well-sourced American-made toys to ensure materials are safe. 
-<br>
-<br>
-
-Crate or baby gates: Crates and baby gates allow you to confine your dog to a specific place, which sets them up for success when they are unsupervised. Learn more about crate training.
-<br>
-<br>
-GROOMING
-<br>
-<br>
-
-Your dog’s basic grooming needs include nail trimming, brushing, bathing, dental hygiene and ear cleaning.</p>
-<br>
-<br>
-
-<a href="https://www.pawschicago.org/news-resources/all-about-dogs/doggy-basics/a-dogs-basic-needs">LEARN MORE </a>
-
+<div class="col" style="margin:20px; padding: 10px;">
+  <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/dogcare.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">General Dog Care</h5>
+      <p class="text">It's important to keep your canine companion's health and happiness a top priority.</p>
+      <a href="https://www.aspca.org/pet-care/dog-care/general-dog-care" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
 </div>
 
+<div class="col" style="margin:20px; padding: 10px;">
+  <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/catvax.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Cat Vaccinations</h5>
+      <p class="text">The importance of vaccinations to the overall health and longevity of your cat cannot be understated.</p>
+      <a href="https://www.rauanimalhospital.com/services/cats/vaccinations"  target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+</div>
+
+<div class="col" style="margin:20px; padding: 10px;">
+  <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/dogvax.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Dog Vaccinations</h5>
+      <p class="text">Veterinarians recommend certain vaccines for all dogs, while others are used more selectively.</p>
+      <a href="https://vcahospitals.com/know-your-pet/vaccines-for-dogs" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col" style="margin:20px; padding: 10px;">
+    <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/spayneuter.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Spaying and Neutering</h5>
+      <p class="text">Early spaying of female dogs and cats can help protect them from some serious health problems.</p>
+      <a href="https://www.avma.org/resources/pet-owners/petcare/spaying-and-neutering" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="col" style="margin:20px; padding: 10px;">
+    <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/dogexercise.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Dog Exercise</h5>
+      <p class="text">Keeping your dog active and well-exercised does more than keeping your pet in shape.</p>
+      <a href="https://www.purina.co.uk/articles/dogs/health/exercise/exercising-to-stay-healthy" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="col" style="margin:20px; padding: 10px;">
+    <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/catdiet.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Best Diet for Cats</h5>
+      <p class="text">Instead of sweating over the ingredient list, pay attention to the nutrients in your cat food.</p>
+      <a href="https://www.rd.com/list/best-diet-for-cats/" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col" style="margin:20px; padding: 10px;">
+    <div class=" col-3 py-5 card" style="width: 18rem;">
+    <img src="resources/dogdiet.png" class="card-img" alt="...">
+    <div class="body">
+      <h5 class="title">Best Diet for Dogs</h5>
+      <p class="text">A high-quality diet, after all, is key to helping your dog live longer and healthier.</p>
+      <a href="https://www.rd.com/list/best-diet-for-dogs-according-to-vets/" target="_blank" class="btn-petcare">Learn More</a>
+    </div>
+  </div>
+  </div>
+
+
+</div>
+</div>
 
       <!-- Footer -->
       <footer>
@@ -372,7 +211,7 @@ Your dog’s basic grooming needs include nail trimming, brushing, bathing, dent
     
            </div>
          </div>
-        </div>
+      
         <br>
       </footer>
    
