@@ -341,21 +341,34 @@ a{
 }
 
 
-.filter:hover {
-      
+.filter:hover {    
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-
   opacity: 1;
   transition: transform 1s;
+  color: #fc4667 !important;
+
   
 }
 
+
 .filter{
-  font-size: 15px;
+  font-size: 20px;
   color: #322e2e !important;
   white-space: nowrap;
+  text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .filter{
+    
+    font-size: 15px;
+
+  }
+} 
+
+
+
 .shoplink{
   display: flex;
   justify-content: space-between;
@@ -412,7 +425,7 @@ a{
 /* Donate Exclusive */
 
 .donatetext{
-  font-size: 15px; 
+  font-size: 20px; 
   text-align: center; 
   font-weight: 800;
 }
