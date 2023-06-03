@@ -48,6 +48,7 @@ a{
   .abouttext{
     font-size: 1.25vw !important;
     color: #322e2e !important;
+    text-align: center;
   }
   
   @media screen and (max-width: 600px) {
