@@ -183,7 +183,7 @@ left: 14% !important;
 
   @media screen and (max-width: 600px) {
     .btn-secondary{
-      width: 25% !important;
+      width: 25%;
    
     }
   }
@@ -207,18 +207,12 @@ left: 14% !important;
   }
 
 
-  @media screen and (max-width: 600px) {
-    .btn-secondary, .btn-pets{
-      
-      width: 60%;
-  
-    }
-  }
+
 
   @media screen and (max-width: 600px) {
     .btn-pets{
       
-      width: 25%;
+      width: 30%;
   
     }
   }
