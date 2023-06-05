@@ -9,13 +9,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="resources/icon.png">
+    <style>
+      #header{
+        position: relative;
+        left: 25%;
+        padding-top: 30%;
+        padding-bottom: 1%;
+      }
+
+
+@media screen and (max-width: 600px) {
+  #header{
+    left: 0%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+  }
+}
+
+
+    </style>
     <title>Meowoof!</title>
 </head>
 <body>
 <!-- Navigation bar -->
 
-<nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg " >
+  <div class="container-fluid" >
       <div class="navbar-brands" >
         <a class="nav-link" href="index.html" ><img src="resources/logo.png" class="logo"></a>
       </div>
@@ -90,18 +109,16 @@
   <div class="row">
       <!-- link -->
       <div class="col-12 col-md-4 d-flex order-md-0">
-        <div class="col d-flex flex-column" style=" position: relative; left: 25%;" >
-            <br><br><br><br><br><br><br>
+        <div class="col d-flex flex-column" id="header">
               <h1 style="font-size: 25px; font-weight: 700; text-align:left;">EVERY PET DESERVES A HOME.</h1>
               <br>
              <p class="indextext" >Discover the incredible joy of finding your new best friend and creating an unbreakable bond that will warm your heart.
             <br><br> By choosing adoption, you're not just welcoming a pet into your home; you're becoming a hero, offering a second chance at life to a deserving soul.
             It's a rewarding experience that will leave an indelible paw print on your heart.
           </p>
-          <br>
-          <br>
+         
  
-          <div class="d-flex align-items-center justify-content-left" >
+          <div class="d-flex align-items-center justify-content-left">
             <a class="btn-secondary text-nowrap" href="pets.html" role="button">Adopt today!</a>
           </div>
         </div>
@@ -109,7 +126,7 @@
       </div>
       
       <!-- center photo -->
-      <div class="col-12 col-md-7 d-flex order-md-1 justify-content-end p-0">
+      <div class="col-12 col-md-7 d-flex order-md-1 justify-content-end p-0" >
           <img src="resources/center.png" class="center">
       </div>
   </div>
@@ -155,9 +172,9 @@
     <!-- Testimonials -->
     <br>
     <br>
-    <div class=" col jumbotron jumbotron-fluid text-left">
-      <div class="container-fluid px-5">
-        <h5 class="display-6 d-flex" style="font-size: 35px; position: absolute; left:9%;">HAPPY  CLIENTS</h5>
+    <div class=" col jumbotron jumbotron-fluid text-left" >
+      <div class="container-fluid" >
+        <h5 class="display-6 d-flex" style="font-size: 35px; position: absolute; left: 9%;" >HAPPY  CLIENTS</h5>
       </div>
     </div>
     <br>
@@ -319,7 +336,7 @@
 <!-- Donate -->
 
 
-     <div id="footer" class="py-5" >
+     <div id="footer" class="py-5"  >
        <div class="container text-center" >
             <h2 style="font-weight: 600; ">Can't adopt? No problem!<br> Make an impact by supporting our cause!</h2>
             <a href="donate.html" class="btn-tertiary" style=" padding: 0; margin: 0;"><img src="resources/donate.png" style=" display: flex; position: relative; right: 62px;"  width="200px" height="200px"></a>
@@ -336,7 +353,7 @@
      <hr>
      <div class="container-fluid d-flex justify-content-center">
       <div class="col d-flex justify-content-start">
-          <img src="resources/copyright.png" style="width: 12px; height: 12px; ">
+          <img src="resources/copyright.png" style="width: 12px; height: 12px; " >
           <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
         </div>
         <div class="col d-flex justify-content-center px-5">
