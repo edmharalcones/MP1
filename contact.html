@@ -9,6 +9,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="resources/icon.png">
+    <style>
+         input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      }
+    </style>
     <title>Meowoof!</title>
 </head>
 <body>
@@ -90,39 +97,65 @@
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 <div class="container-fluid">
-<div class="container px-6">
+<div class="container">
   <img src="resources/message.png" class="messageicon"> <br>
-  <form class="needs-validation" novalidate>
-      <div class="col">
-        <label for="validationFullName" class="form-label " >Full Name</label> <br>
+ <form class="needs-validation"  novalidate> 
+        <label for="validationFullName" class="form-label " >Full Name:</label> <br>
         <input type="text" class="form-control" id="validationFullName"   pattern="[a-zA-Z]*" required>
         <div class="valid-feedback">Looks good!</div>
         <div class="invalid-feedback">Please enter your full name.</div>
-      </div>
       <br>
-      <div class="col">
-        <label for="validationEmail" class="form-label">Email Address</label>
-        
+        <label for="validationEmail" class="form-label">Email Address:</label>
         <input type="email" class="form-control" id="validationEmail" required>
         <div class="valid-feedback">Looks good!</div>
         <div class="invalid-feedback">Please enter your email address.</div>
-      </div>
       <br>
-      <div class="col">
-        <label class="form-label" for="validationPhone">Phone Number</label>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <div class="input-group-text">+63</div>
-          </div>
-          <div class="col">
+        <label class="form-label" for="validationPhone">Phone Number:</label>
           <input type="number" class="form-control" id="validationPhone" required>
           <div class="valid-feedback">Looks good!</div>
           <div class="invalid-feedback">Please enter your phone number.</div>
-        </div>
-      </div>
+      
       <br>
+      <div class="col">
+        <p>Subject:</p>
+        <ul style="list-style-type: none;">
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" checked>
+              <label class="form-check-label" for="flexRadioDisabled">
+                General inquiry
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" >
+              <label class="form-check-label" for="flexRadioDisabled">
+                Adoption inquiry
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" >
+              <label class="form-check-label" for="flexRadioDisabled">
+                Donation inquiry
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" >
+              <label class="form-check-label" for="flexRadioDisabled">
+                Appointment
+              </label>
+            </div>
+          </li>
+        </ul>
+
+       </div> 
         <div class="col">
-          <label for="Message" class="form-label">Message</label>
+          <label for="Message" class="form-label">Message:</label>
           <textarea class="form-control" id="Message" rows="3" required></textarea>
           <div class="valid-feedback">Looks good!</div>
         <div class="invalid-feedback">Please add a message. </div>
@@ -131,7 +164,7 @@
       <div class="col" style="margin-top: 5%;">
         <button class="btn-primary shadow-none border-0" type="submit">Send</button>
       </div>
-    </form>
+    </form>  
 </div>
 </div>
 <br>
@@ -139,19 +172,18 @@
 
 
 <!-- Footer -->
-<hr>
 <footer>
-
+  <hr>
   <div class="container-fluid d-flex justify-content-center">
    <div class="col d-flex justify-content-start">
        <img src="resources/copyright.png" style="width: 12px; height: 12px; ">
        <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
      </div>
      <div class="col d-flex justify-content-center px-5">
-       <img src="resources/fb.png" class="socials">
-       <img src="resources/tiktok.png" class="socials">
-       <img src="resources/ig.png" class="socials">
-       <img src="resources/yt.png" class="socials">
+      <a href="https://www.facebook.com/" target="_blank"><img src="resources/fb.png" class="socials"></a> 
+      <a href="https://www.tiktok.com/en/" target="_blank"><img src="resources/tiktok.png" class="socials"></a> 
+       <a href="https://www.instagram.com/" target="_blank"><img src="resources/ig.png" class="socials"></a> 
+       <a href="https://www.youtube.com//" target="_blank"><img src="resources/yt.png" class="socials"></a> 
     
    
      </div>
@@ -162,9 +194,9 @@
      </div>
    </div>
   </div>
-
   <br>
 </footer>
+
 
 </body>
 <script>

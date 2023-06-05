@@ -245,13 +245,7 @@ left: 15% !important;
         height: 15rem;
         object-fit: cover;
       }
-      .card-img-top:hover{
-       
-          transform: scale(1.25, 1.25);
-       
-          
-        
-      }
+
 
       .card-title{
         font-size: 1vw;
@@ -346,6 +340,7 @@ left: 15% !important;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 1;
+  cursor: pointer;
   transition: transform 1s;;
      color:  #7890fd !important;
 
@@ -377,7 +372,7 @@ left: 15% !important;
 
 
 
-.btn-primary, .btn-shopee {
+.btn-primary{
   
   width: 100px;
   display: block;
@@ -397,27 +392,18 @@ left: 15% !important;
   transition: -webkit-transform 0.2s, transform 0.2s;
 }
 
-.btn-primary:hover, .btn-shopee:hover, .btn-lazada:hover {
+.btn-primary:hover, .btn-shop:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 
 }
 
-.btn-lazada {
-  
-  width: 100px;
-  display: block;
-  position: relative;
-  background-color: #fde578 !important;
-  color: #fc4667 !important;
-  border-radius: 40px;
-  padding: 10px;
+
+
+.btn-shop {
+  display: flex;
+  justify-content: space-evenly;
   box-sizing: border-box;
-  background-color: transparent;
-  text-decoration: none;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
   font-family:sans-serif;
   -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
   transition: -webkit-transform 0.2s, transform 0.2s;
