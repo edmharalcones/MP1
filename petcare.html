@@ -11,6 +11,19 @@
     <title>Meowoof!</title>
     <style>
      
+     .card{
+  position: relative;
+  padding:10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+  .card{
+    width: 50%;
+    height: auto;
+  }
+}
 
 
 
@@ -93,9 +106,9 @@
 </div> 
 <br>
   
-<div class="container-fluid px-5">
-  <div class="row">
-    <div class="col" style="margin:20px; padding: 10px;">
+<div class="container ">
+  <div class="row d-flex justify-content-center">
+
       <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/catcare.png" class="card-img" alt="...">
     <div class="body">
@@ -104,9 +117,9 @@
       <a href="https://www.aspca.org/pet-care/cat-care/general-cat-care" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-</div>
 
-<div class="col" style="margin:20px; padding: 10px;">
+
+
   <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/dogcare.png" class="card-img" alt="...">
     <div class="body">
@@ -115,9 +128,9 @@
       <a href="https://www.aspca.org/pet-care/dog-care/general-dog-care" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-</div>
 
-<div class="col" style="margin:20px; padding: 10px;">
+
+
   <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/catvax.png" class="card-img" alt="...">
     <div class="body">
@@ -126,9 +139,9 @@
       <a href="https://www.rauanimalhospital.com/services/cats/vaccinations"  target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-</div>
 
-<div class="col" style="margin:20px; padding: 10px;">
+
+
   <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/dogvax.png" class="card-img" alt="...">
     <div class="body">
@@ -137,9 +150,9 @@
       <a href="https://vcahospitals.com/know-your-pet/vaccines-for-dogs" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-  </div>
 
-  <div class="col" style="margin:20px; padding: 10px;">
+
+
     <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/spayneuter.png" class="card-img" alt="...">
     <div class="body">
@@ -148,10 +161,10 @@
       <a href="https://www.avma.org/resources/pet-owners/petcare/spaying-and-neutering" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-  </div>
 
 
-  <div class="col" style="margin:20px; padding: 10px;">
+
+
     <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/dogexercise.png" class="card-img" alt="...">
     <div class="body">
@@ -160,10 +173,9 @@
       <a href="https://www.purina.co.uk/articles/dogs/health/exercise/exercising-to-stay-healthy" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-  </div>
 
 
-  <div class="col" style="margin:20px; padding: 10px;">
+
     <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/catdiet.png" class="card-img" alt="...">
     <div class="body">
@@ -172,9 +184,9 @@
       <a href="https://www.rd.com/list/best-diet-for-cats/" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-  </div>
 
-  <div class="col" style="margin:20px; padding: 10px;">
+
+
     <div class=" col-3 py-5 card" style="width: 18rem;">
     <img src="resources/dogdiet.png" class="card-img" alt="...">
     <div class="body">
@@ -183,30 +195,33 @@
       <a href="https://www.rd.com/list/best-diet-for-dogs-according-to-vets/" target="_blank" class="btn-petcare">Learn More</a>
     </div>
   </div>
-  </div>
+
 
 
 </div>
 </div>
+<br>
+<br>
 
       <!-- Footer -->
       <footer>
         <hr>
-        <div class="container-fluid d-flex justify-content-between">
-         <div class="col d-flex justify-content-start">
-             <img src="resources/copyright.png" style="width: 12px; height: 12px; ">
-             <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
-           </div>
-           <div class="col d-flex justify-content-center px-5">
-            <a href="https://www.facebook.com/" target="_blank"><img src="resources/fb.png" class="socials"></a> 
-            <a href="https://www.tiktok.com/en/" target="_blank"><img src="resources/tiktok.png" class="socials"></a> 
-             <a href="https://www.instagram.com/" target="_blank"><img src="resources/ig.png" class="socials"></a> 
-             <a href="https://www.youtube.com//" target="_blank"><img src="resources/yt.png" class="socials"></a> 
-           </div>
-           <div class="col d-flex justify-content-end">
-             <a href="terms.html" class="link px-2 text-nowrap" style="font-size: 10px;">Terms of Use</a>
-           </div>
-         </div>
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-4 order-1 order-md-0 d-flex justify-content-center mb-3 mb-md-0">
+              <img src="resources/copyright.png" style="width: 12px; height: 12px;">
+              <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
+            </div>
+            <div class="col-12 col-md-4 order-0 order-md-1 d-flex justify-content-center mb-3 mb-md-0">
+              <a href="https://www.facebook.com/" target="_blank"><img src="resources/fb.png" class="socials"></a>
+              <a href="https://www.tiktok.com/en/" target="_blank"><img src="resources/tiktok.png" class="socials"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="resources/ig.png" class="socials"></a>
+              <a href="https://www.youtube.com//" target="_blank"><img src="resources/yt.png" class="socials"></a>
+            </div>
+            <div class="col-12 col-md-4 order-2 order-md-2 d-flex justify-content-center">
+              <a href="terms.html" class="link px-2 text-nowrap" style="font-size: 10px;">Terms of Use</a>
+            </div>
+          </div>
         </div>
         <br>
       </footer>

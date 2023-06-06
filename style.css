@@ -51,7 +51,7 @@ a{
     text-align: center;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     .abouttext{
       font-size: 3vw !important;
     }
@@ -94,7 +94,7 @@ a{
     }
     
     nav.navbar li a[name="active-page"] {
-     color: #fc4667;;
+     color: #fe804b;;
       
     }
 
@@ -104,12 +104,24 @@ a{
 
 /* index exclusive */
 
-.logo{
+.navbar-brands{
   display: block;
   position: relative;
   width: 40%;
-  left: 30px;
+  left: 2%;
   height: auto;
+}
+
+.logo{
+  width: 30%;
+  height: auto;
+}
+
+@media screen and (max-width: 425px) {
+  .logo{
+    width: 100%;
+  
+  }
 }
 
 .col-4 p{
@@ -123,7 +135,7 @@ a{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .col-4 p{
     font-size: 1.25vw;
     padding: 0;
@@ -140,7 +152,7 @@ left: 14% !important;
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .col-4 p{
     font-size: 1.25vw;
     padding: 0;
@@ -155,7 +167,7 @@ left: 14% !important;
    font-family:sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .indextext{
     font-size: 10px !important;
 
@@ -167,8 +179,8 @@ left: 14% !important;
     display: flex;
     position: relative;
     justify-content: center;
-    color: #fc4667 !important;
-    background-color: #fde578 !important;
+    color: #ffffff !important;
+    background-color: #fe804b !important;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -181,7 +193,7 @@ left: 14% !important;
     font-family:sans-serif;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     .btn-secondary{
       width: 25%;
    
@@ -191,8 +203,8 @@ left: 14% !important;
     display: flex;
     position: relative;
     justify-content: center;
-    color: #fc4667 !important;
-    background-color: #fde578 !important;
+    color: #ffffff !important;
+    background-color: #ff6341 !important;
     padding: 10px;
     right: 5%;
     text-decoration: none;
@@ -209,7 +221,7 @@ left: 14% !important;
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
     .btn-pets{
       
       width: 30%;
@@ -292,10 +304,6 @@ left: 14% !important;
       
 
 
-.col-12{
-    padding-bottom: 100px;
-}
-
 
 
 /* pets exclusive */
@@ -321,7 +329,7 @@ left: 14% !important;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .steps{
     
     max-width: 100%;
@@ -363,7 +371,7 @@ left: 14% !important;
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .filter{
     
     font-size: 15px;
@@ -385,8 +393,8 @@ left: 14% !important;
   width: 100px;
   display: block;
   position: relative;
-  background-color: #fde578 !important;
-  color: #fc4667 !important;
+  background-color: #fe804b !important;
+  color: #ffffff !important;
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;
@@ -437,7 +445,7 @@ left: 14% !important;
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .donatetext2{
     font-size: 12px !important; 
 
@@ -452,7 +460,7 @@ left: 14% !important;
   margin-right: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   .donateimage{
     width: 50%;
     height: auto;
@@ -478,7 +486,7 @@ left: 14% !important;
   display: block;
   position: relative;
   background-color: #fde578 !important;
-  color: #fc4667 !important;
+  color: #4667fc !important;
   border-radius: 40px;
   padding: 10px;
   box-sizing: border-box;

@@ -18,7 +18,7 @@
       }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   #header{
     left: 0%;
     padding-top: 5%;
@@ -33,8 +33,8 @@
 <body>
 <!-- Navigation bar -->
 
-<nav class="navbar navbar-expand-lg " >
-  <div class="container-fluid" >
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
       <div class="navbar-brands" >
         <a class="nav-link" href="index.html" ><img src="resources/logo.png" class="logo"></a>
       </div>
@@ -45,22 +45,27 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown"  style="margin-right: 40px;">
           <ul class="navbar-nav" style="display:flex; justify-content:end;">
               <li class="nav-item">
-                  <a class="nav-link" href="pets.html" >Our Pets</a>
+                  <a class="nav-link" href="pets.html">Our Pets</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="petcare.html">Pet Care</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="donate.html">Donate</a>
+                  <a class="nav-link" href="donate.html" >Donate</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="shop.html">Shop Products</a>
+                  <a class="nav-link" href="shop.html" >Shop Products</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="about.html">About the Shelter</a>
               </li>
-              <li class="nav-item">  
-                <div class="col p-0"> <a class="nav-link" href="contact.html">Contact Us</a></div>
+              <li class="nav-item">
+                <div class="container">
+                  <div class="row">
+                <div class="col p-0"> <a class="nav-link" href="contact.html" >Contact Us</a></div>
+            
+              </div>
+              </div>
             </li>
             <li class="nav-item">
               <div class="container">
@@ -74,6 +79,7 @@
       </div>
   </div>
 </nav>
+
 
   <div class="modal" id="mymodal">
     <div class="modal-dialog">
@@ -135,7 +141,6 @@
   <br>
   <br>
   <br>
-  <br>
     <!-- featured pets -->
  
   
@@ -167,9 +172,10 @@
       <a href="pets.html" role="button" class="btn-pets text-nowrap">View all pets</a>
     </div>
   </div>
-
   
     <!-- Testimonials -->
+    <br>
+    <br>
     <br>
     <br>
     <div class=" col jumbotron jumbotron-fluid text-left" >
@@ -331,8 +337,6 @@
   
         
      
-<br>
-<br>
 <!-- Donate -->
 
 
@@ -351,24 +355,24 @@
 <!-- Footer -->
 <footer>
   <hr>
-  <div class="container-fluid d-flex justify-content-between">
-   <div class="col d-flex justify-content-start">
-       <img src="resources/copyright.png" style="width: 12px; height: 12px; ">
-       <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
-     </div>
-     <div class="col d-flex justify-content-center px-5">
-      <a href="https://www.facebook.com/" target="_blank"><img src="resources/fb.png" class="socials"></a> 
-      <a href="https://www.tiktok.com/en/" target="_blank"><img src="resources/tiktok.png" class="socials"></a> 
-       <a href="https://www.instagram.com/" target="_blank"><img src="resources/ig.png" class="socials"></a> 
-       <a href="https://www.youtube.com//" target="_blank"><img src="resources/yt.png" class="socials"></a> 
-     </div>
-     <div class="col d-flex justify-content-end">
-       <a href="terms.html" class="link px-2 text-nowrap" style="font-size: 10px;">Terms of Use</a>
-     </div>
-   </div>
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-4 order-1 order-md-0 d-flex justify-content-center mb-3 mb-md-0">
+        <img src="resources/copyright.png" style="width: 12px; height: 12px;">
+        <p class="text-nowrap" style="font-size: 10px;">2023 by Edmhar Alcones</p>
+      </div>
+      <div class="col-12 col-md-4 order-0 order-md-1 d-flex justify-content-center mb-3 mb-md-0">
+        <a href="https://www.facebook.com/" target="_blank"><img src="resources/fb.png" class="socials"></a>
+        <a href="https://www.tiktok.com/en/" target="_blank"><img src="resources/tiktok.png" class="socials"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="resources/ig.png" class="socials"></a>
+        <a href="https://www.youtube.com//" target="_blank"><img src="resources/yt.png" class="socials"></a>
+      </div>
+      <div class="col-12 col-md-4 order-2 order-md-2 d-flex justify-content-center">
+        <a href="terms.html" class="link px-2 text-nowrap" style="font-size: 10px;">Terms of Use</a>
+      </div>
+    </div>
   </div>
   <br>
 </footer>
-
 </body>
 </html>
