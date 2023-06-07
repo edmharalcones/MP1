@@ -241,7 +241,7 @@ left: 14% !important;
     position: relative;
     justify-content: center;
     color: #ffffff !important;
-    background-color: #ff6341 !important;
+    background-color: #fe804b !important;
     padding: 10px;
     right: 5%;
     text-decoration: none;
@@ -276,6 +276,9 @@ left: 14% !important;
     -webkit-transition: -webkit-transform 0.2s, transform 0.2s;
     transition: -webkit-transform 0.2s, transform 0.2s;
   }
+
+
+
 
 
 
@@ -565,3 +568,15 @@ left: 14% !important;
   transform: scale(1.1);
 
 }
+
+/* FAQ */
+
+
+.custom-accordion .accordion-button {
+  background-color: white !important;
+}
+
+.custom-accordion .accordion-button:focus-within {
+  background-color: #fde05e !important;
+}
+
